@@ -1,0 +1,23 @@
+
+
+
+/*
+#ue { display: grid; grid-template-rows: 50px 1fr; background-color: yellow;}
+ */
+#da { display: grid;  grid-template-columns: 200px 1fr; background-color: pink;}
+#mokcha{background-color: brown;}
+#ue{background-color: yellow;}
+
+table{
+  border-collapse: collapse;
+    width:50%;
+  }
+
+ table,th,tr,td {border: 1px solid gray;
+       }
+@media(max-width:500px){
+  #ue {display: block;
+    }
+  #da{ display: block;}
+
+  }
