@@ -4,8 +4,8 @@
 /*
 #ue { display: grid; grid-template-rows: 50px 1fr; background-color: yellow;}
  */
-#da { display: grid;  grid-template-columns: 200px 1fr; background-color: pink;}
-#mokcha{background-color: brown;}
+#da { display: grid;  grid-template-columns: 200px 1fr; background-color: none;}
+#mokcha{background-color: gray;}
 #ue{background-color: yellow;}
 
 table{
@@ -13,7 +13,7 @@ table{
     width:50%;
   }
 
- table,th,tr,td {border: 1px solid gray;
+ table,th,tr,td {border: 1px solid black;
        }
 @media(max-width:500px){
   #ue {display: block;
